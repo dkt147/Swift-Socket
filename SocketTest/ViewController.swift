@@ -15,6 +15,7 @@ class ViewController: UIViewController , URLSessionWebSocketDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //This is optional for the launch screen will count in future
         let gif = UIImage.gifImageWithName("giphy")
         ImageView?.image = gif
         view.backgroundColor = .purple
