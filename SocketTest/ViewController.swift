@@ -10,10 +10,13 @@ import UIKit
 class ViewController: UIViewController , URLSessionWebSocketDelegate{
 
     @IBOutlet weak var label: UITextField!
+    @IBOutlet weak var ImageView: UIImageView!
     private var webSocket:URLSessionWebSocketTask?
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
+        let gif = UIImage.gifImageWithName("giphy")
+        ImageView?.image = gif
         view.backgroundColor = .purple
         
         let session = URLSession(configuration: .default, delegate: self, delegateQueue: OperationQueue())

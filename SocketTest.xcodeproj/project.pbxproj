@@ -16,6 +16,8 @@
 		796D6FAD2770A0970018ECB4 /* SocketTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D6FAC2770A0970018ECB4 /* SocketTestTests.swift */; };
 		796D6FB72770A0970018ECB4 /* SocketTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D6FB62770A0970018ECB4 /* SocketTestUITests.swift */; };
 		796D6FB92770A0970018ECB4 /* SocketTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D6FB82770A0970018ECB4 /* SocketTestUITestsLaunchTests.swift */; };
+		796D6FC62770BA8E0018ECB4 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 796D6FC52770BA8D0018ECB4 /* giphy.gif */; };
+		796D6FC82770BB1F0018ECB4 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D6FC72770BB1F0018ECB4 /* gifLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		796D6FB22770A0970018ECB4 /* SocketTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		796D6FB62770A0970018ECB4 /* SocketTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTestUITests.swift; sourceTree = "<group>"; };
 		796D6FB82770A0970018ECB4 /* SocketTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		796D6FC52770BA8D0018ECB4 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		796D6FC72770BB1F0018ECB4 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				796D6F952770A0960018ECB4 /* AppDelegate.swift */,
 				796D6F972770A0960018ECB4 /* SceneDelegate.swift */,
 				796D6F992770A0960018ECB4 /* ViewController.swift */,
+				796D6FC52770BA8D0018ECB4 /* giphy.gif */,
 				796D6F9B2770A0960018ECB4 /* Main.storyboard */,
 				796D6F9E2770A0970018ECB4 /* Assets.xcassets */,
 				796D6FA02770A0970018ECB4 /* LaunchScreen.storyboard */,
 				796D6FA32770A0970018ECB4 /* Info.plist */,
+				796D6FC72770BB1F0018ECB4 /* gifLoader.swift */,
 			);
 			path = SocketTest;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				796D6FA22770A0970018ECB4 /* LaunchScreen.storyboard in Resources */,
 				796D6F9F2770A0970018ECB4 /* Assets.xcassets in Resources */,
+				796D6FC62770BA8E0018ECB4 /* giphy.gif in Resources */,
 				796D6F9D2770A0960018ECB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 				796D6F9A2770A0960018ECB4 /* ViewController.swift in Sources */,
 				796D6F962770A0960018ECB4 /* AppDelegate.swift in Sources */,
 				796D6F982770A0960018ECB4 /* SceneDelegate.swift in Sources */,
+				796D6FC82770BB1F0018ECB4 /* gifLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
