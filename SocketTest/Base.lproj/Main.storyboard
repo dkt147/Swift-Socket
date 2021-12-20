@@ -32,7 +32,11 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z7-qI-CUv">
-                                <rect key="frame" x="167.5" y="333" width="79" height="31"/>
+                                <rect key="frame" x="162" y="333" width="90" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="Y1t-n2-QFK"/>
+                                    <constraint firstAttribute="height" constant="40" id="x36-Ib-63a"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Connect" cornerStyle="dynamic">
                                     <backgroundConfiguration key="background" cornerRadius="35"/>
