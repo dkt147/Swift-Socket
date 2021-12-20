@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ewP-aO-dio">
-                                <rect key="frame" x="150" y="273" width="114" height="40"/>
+                                <rect key="frame" x="107" y="273" width="200" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Tte-dn-7PQ"/>
-                                    <constraint firstAttribute="width" constant="114" id="WlL-LS-PY9"/>
+                                    <constraint firstAttribute="width" constant="200" id="WlL-LS-PY9"/>
                                 </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -51,8 +51,7 @@
                         <constraints>
                             <constraint firstItem="ewP-aO-dio" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0bk-mf-luQ"/>
                             <constraint firstItem="1Z7-qI-CUv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4X1-hW-yQI"/>
-                            <constraint firstItem="ewP-aO-dio" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="CjP-Nk-fzS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ewP-aO-dio" secondAttribute="trailing" constant="150" id="HLX-Nm-8P0"/>
+                            <constraint firstItem="ewP-aO-dio" firstAttribute="centerX" secondItem="1Z7-qI-CUv" secondAttribute="centerX" id="JpV-do-P3l"/>
                             <constraint firstItem="1Z7-qI-CUv" firstAttribute="top" secondItem="ewP-aO-dio" secondAttribute="bottom" constant="20" id="Mhj-2A-4CR"/>
                             <constraint firstItem="ewP-aO-dio" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="229" id="zZc-Dx-ceI"/>
                         </constraints>
