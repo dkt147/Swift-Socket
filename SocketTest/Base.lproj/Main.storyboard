@@ -45,6 +45,12 @@
                                     <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bme-RJ-Wjq"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connection to Sockets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HC2-Cf-D6b">
+                                <rect key="frame" x="93.5" y="591" width="227" height="31"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -53,6 +59,8 @@
                             <constraint firstItem="1Z7-qI-CUv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4X1-hW-yQI"/>
                             <constraint firstItem="ewP-aO-dio" firstAttribute="centerX" secondItem="1Z7-qI-CUv" secondAttribute="centerX" id="JpV-do-P3l"/>
                             <constraint firstItem="1Z7-qI-CUv" firstAttribute="top" secondItem="ewP-aO-dio" secondAttribute="bottom" constant="20" id="Mhj-2A-4CR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HC2-Cf-D6b" secondAttribute="bottom" constant="240" id="TaW-fW-zL9"/>
+                            <constraint firstItem="HC2-Cf-D6b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WbN-z2-jqF"/>
                             <constraint firstItem="ewP-aO-dio" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="229" id="zZc-Dx-ceI"/>
                         </constraints>
                     </view>
